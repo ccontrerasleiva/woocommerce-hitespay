@@ -220,7 +220,7 @@ function check_response($order_id) {
                     $order->update_meta_data( '_montoTotal', $montoTotal );
                     
                     $order->update_meta_data( '_mensajeHites', $message );
-                    $order->update_status( 'processing' );
+                    $order->update_status( 'completed' );
                     $order->add_order_note( sprintf( __( 'Hites Pay - Pago aprobado. <br />ID Transacción: %s <br /> Fecha Operacion: %s <br /> Hora Operación: %s <br /> Cod. Autorización: %s <br /> Cuotas: %s <br /> Monto Total: %s<br /> Mensaje: %s', 'woocommerce' ), $order_id, $fecha, $hora, $codAuth, $cuotas, $montoTotal, $message ) );
                 
                     $woocommerce->cart->empty_cart();
