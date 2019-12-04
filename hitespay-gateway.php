@@ -2,7 +2,7 @@
 
 /*
  * Plugin Name: WooCommerce Hites Payment Gateway
- * Plugin URI: https://www.contreras.tk
+ * Plugin URI: https://github.com/ccontrerasleiva/woocommerce-hitespay
  * Description: Permite pagos usando tarjeta Hites
  * Author: Cristian Contreras
  * Author URI: http://www.contreras.tk
