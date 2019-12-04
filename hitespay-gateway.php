@@ -227,7 +227,7 @@ function check_response($order_id) {
                 }
                 else{
                     openssl_private_decrypt(base64_decode($resJson->message),$message,$res);
-                    $order->update_status('failed');
+                    $order->update_status('cancelled');
                     $order->add_order_note( sprintf( __( 'Hites Pay - Pago anulado por el usuario, Transaction ID: %s <br />Mensaje Hites: %s', 'woocommerce' ), $order_id, $message ) );
                     $woocommerce->cart->empty_cart();
                     wp_safe_redirect( $order->get_checkout_payment_url() );
