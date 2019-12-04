@@ -43,3 +43,6 @@ Llena los campos :
  - Código Comercio: Es el codigo asociado a tu tienda, en testing es 930
  - Código Local : Es el código que asigna Hites a los locales de tu tienda, por lo general deberas usar el código de local 1
  - Llave Privada : es el contenido de la llave generada para establecer la comunicación con Hites en la sección de alcances técnicos (abrir private_key.pem, copiar el contenido y pegarlo en este campo).
+ 
+ ## Acerca del repo
+ Como todo desarrollo es propenso a (ho)errores y cosas que pueden mejorarse. Si ve algún Horror u oportunidad de mejora, sientase con la libertad de informarmelo, apenas pueda lo corregiré. Lo juro
